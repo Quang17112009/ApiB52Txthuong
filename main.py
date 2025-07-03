@@ -10,7 +10,7 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 import requests # Import the requests library for HTTP requests
 
-# --- Basic Setup ---
+# --- Basic Setup --
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 # --- Helper Functions ---
